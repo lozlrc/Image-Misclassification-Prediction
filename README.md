@@ -15,20 +15,25 @@ install the following packages:
 
 
 Step 1: Train the base image classifier
-python3 -m src.train_base --device mps --epochs 6
+
+	python3 -m src.train_base --device mps --epochs 6
 
 Step 2: Generate the meta-dataset from base model outputs
-python3 -m src.make_meta_dataset --device mps
+	
+	python3 -m src.make_meta_dataset --device mps
 
 Step 3: Train the failure predictor (meta-model)
-python3 -m src.train_meta
+
+	python3 -m src.train_meta
 
 Step 4: Evaluate and generate plots
-python3 -m src.eval_base
-python3 -m src.eval_selective
+
+	python3 -m src.eval_base
+	python3 -m src.eval_selective
 
 Step 5: Launch the Streamlit demo
-python3 -m streamlit run app/streamlit_app.py
+
+	python3 -m streamlit run app/streamlit_app.py
 
 Streamlit demo:
 
