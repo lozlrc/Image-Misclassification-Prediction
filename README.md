@@ -3,12 +3,16 @@ It builds a CIFAR-10 image classifier, then train a second model that predicts w
 
 No Kaggle or external credentials are used.
 
-## Setup
-pip install torch torchvision torchaudio
-pip install numpy pandas scikit-learn matplotlib tqdm
-pip install streamlit pillow
-
 Your filenames may differ. Update the commands below to match your scripts if needed.
+
+how to run:
+
+install the following packages:
+
+	- pip install torch torchvision torchaudio
+	- pip install numpy pandas scikit-learn matplotlib tqdm
+	- pip install streamlit pillow
+
 
 Step 1: Train the base image classifier
 python3 -m src.train_base --device mps --epochs 6
