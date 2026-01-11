@@ -27,8 +27,9 @@ Step 5: Launch the Streamlit demo
 python3 -m streamlit run app/streamlit_app.py
 
 Streamlit demo:
-	•	a CIFAR-10 test image by index
-	•	top-3 predictions
-	•	predicted failure risk p_fail
-	•	abstain / predict decision based on threshold
-	•	abstention precision and number abstained on the test set
+
+	- a CIFAR-10 test image by index
+	- top-3 predictions
+	- predicted failure risk p_fail
+	- abstain / predict decision based on threshold
+	- abstention precision and number abstained on the test set
