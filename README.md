@@ -5,7 +5,7 @@ No Kaggle or external credentials are used.
 
 Your filenames may differ. Update the commands below to match your scripts if needed.
 
-how to run:
+## How to run:
 
 install the following packages:
 
